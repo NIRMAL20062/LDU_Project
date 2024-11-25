@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix to Lower Triangular Conversion</title>
+    <link rel="stylesheet" href="ltm.css">
+</head>
+<body>
+    <script src="ltm.js"> </script>
+<h1> Given Matrix to Their Lower Triangular Matrix Conversion Step-by-Step</h1>
+<div>
+    <h3>Enter the matrix size (n x n):</h3>
+    <input type="number" id="matrix-size" class="matrix-size-input" placeholder="Enter n" min="2">
+    <button onclick="generateMatrix()">Generate Matrix</button>
+</div>
+<div>
+    <h3>Enter the matrix values:</h3>
+    <table id="matrix-input"></table><br>
+    <button onclick="convertToLowerTriangular()">Convert to Lower Triangular Matrix</button>
+</div>
+<div class="step">
+    <h3>Steps:</h3>
+    <pre id="steps"></pre>
+</div>
+<div>
+    <h3>Converted Lower Triangular Matrix:</h3>
+    <pre id="result"></pre>
+</div>
+</body>
+</html>
